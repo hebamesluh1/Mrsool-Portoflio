@@ -7,13 +7,13 @@ import Testimonies from './Testimonies'
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Hero/>
       <What/>
       <HowDo/>
       <Journey/>
       <Testimonies/>
-    </div>
+    </>
   )
 }
 
