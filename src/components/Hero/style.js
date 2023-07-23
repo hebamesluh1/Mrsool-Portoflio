@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  background-image: url(https://mrsool.co/images/about-hero.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
   color:#fff;
   height:100vh;
+  width:100%;
   .hero-about {
     padding-top: 350px;
   }

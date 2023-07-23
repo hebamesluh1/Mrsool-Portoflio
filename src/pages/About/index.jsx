@@ -1,12 +1,12 @@
 import React from 'react'
-import Hero from './Hero'
+import HeroAbout from './HeroAbout'
 import Main from './Main'
 import Last from './Last'
 
 const About = () => {
   return (
     <>
-      <Hero/>
+      <HeroAbout/>
       <Main/>
       <Last/>
     </>
