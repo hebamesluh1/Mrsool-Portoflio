@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Logo, Menu, Button, Wrapper,FullWrapped } from './style'
 
-import logo from '../../../assets/Mrsool-Logo-v2.png';
+import logo from '../../../assets/images/Mrsool-Logo-v2.png';
 import { Link } from 'react-router-dom';
 const Header = () => {
   return (

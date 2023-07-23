@@ -1,9 +1,9 @@
 import React from 'react'
-import { FullWrapped, Wrapper, List } from './style'
+import { FullWrapped, Wrapper, List,Down } from './style'
 import { Link } from 'react-router-dom'
 
-import appstore from '../../../assets/footer-appstore.png'
-import playstore from '../../../assets/footer-playstore.png'
+import appstore from '../../../assets/images/footer-appstore.png'
+import playstore from '../../../assets/images/footer-playstore.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Footer = () => {
@@ -23,7 +23,7 @@ const Footer = () => {
           <h6>Contacts</h6>
           <ul>
             <li><FontAwesomeIcon icon="fa-solid fa-location-arrow" className="custom-icon" />Abi Bakar As Siddiq Rd, Riyadh, Saudi Arabia</li>
-            <li><a href="mailto:inquiries@mrsool.co"><FontAwesomeIcon icon="fa-solid fa-envelope" className="custom-icon"/> inquiries@mrsool.co</a></li>
+            <li><a href="mailto:inquiries@mrsool.co"><FontAwesomeIcon icon="fa-solid fa-envelope" className="custom-icon" /> inquiries@mrsool.co</a></li>
           </ul>
         </List>
         <List>
@@ -41,6 +41,16 @@ const Footer = () => {
           </ul>
         </List>
       </Wrapper>
+      <Down>
+        <Wrapper>
+        <div>
+        © 2023 MRSOOL Inc.
+        </div>
+        <div>
+        Privacy Policy & Terms of Use
+        </div>
+        </Wrapper>
+      </Down>
     </FullWrapped>
   )
 }

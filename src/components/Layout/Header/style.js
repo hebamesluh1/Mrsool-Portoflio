@@ -3,8 +3,9 @@ import { Container } from "../../../global/component";
 
 export const FullWrapped = styled.div`
 width:100%;
-background:#000;
-// position:fixed;
+// background:#000;
+position:fixed;
+z-index:1000000;
 `
 
 export const Wrapper = styled(Container)`
