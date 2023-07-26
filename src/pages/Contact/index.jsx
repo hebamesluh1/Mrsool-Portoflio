@@ -1,8 +1,13 @@
 import React from 'react'
+import HeroContact from './HeroContact'
+import BodyContact from './BodyContact'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <>
+      <HeroContact/>
+      <BodyContact/>
+    </>
   )
 }
 
