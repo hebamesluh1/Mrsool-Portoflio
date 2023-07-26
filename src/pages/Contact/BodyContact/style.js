@@ -6,6 +6,7 @@ export const Wrapper = styled.div`
 export const Style = styled.div`
 display:flex;
 gap:30px;
+padding:3rem 0px;
 h3{
     margin-bottom: 1.5rem;
 

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FormStyle = styled.div`
   background-color: #ffffff;
   box-shadow: 0 16px 32px rgb(0 0 0 / 20%);
-  padding: 55px 10px 15px;
+  padding: 55px 20px 15px;
   border-radius: 5px;
   margin-top: -120px;
   .group {
